@@ -5,9 +5,6 @@ import Services from "./_components/Services/Services";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Logos />
-      <Services />
     </>
   );
 }
