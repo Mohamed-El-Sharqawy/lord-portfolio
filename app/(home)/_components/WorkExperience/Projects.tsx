@@ -16,8 +16,9 @@ export default function Projects() {
       opacity: 1,
       duration: 2,
       ease: "elastic",
+      delay: 1.75,
       scrollTrigger: {
-        trigger: ".work-experience-projects-container",
+        trigger: ".work-experience-section-title",
         start: "top 50%",
       },
       stagger: 0.25,
