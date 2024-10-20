@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply font-roboto;
+  @apply font-arial;
 }
 
 html {
@@ -20,6 +20,27 @@ main {
 
 .section-container {
   @apply max-w-[1400px] w-full mx-auto;
+}
+
+@media screen and (max-width: 1470px) {
+  .section-container {
+    @apply max-w-[1200px];
+  }
+}
+@media screen and (max-width: 1240px) {
+  .section-container {
+    @apply max-w-[980px];
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section-container {
+    @apply max-w-[740px];
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-container {
+    @apply max-w-[500px];
+  }
 }
 
 /*! Logos Section */

@@ -9,8 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
-        kalam: ["Kalam", "cursive"],
+        arial: ["Arial", "sans-serif"],
       },
       colors: {
         wheat: "#DAC5A7",
@@ -20,6 +19,9 @@ const config: Config = {
       },
       backgroundColor: {
         main: "#0E0E0E",
+      },
+      backgroundImage: {
+        noise: "url('/imgs/noise.webp')",
       },
     },
   },

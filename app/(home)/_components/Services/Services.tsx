@@ -13,6 +13,7 @@ import "./services.css";
 export default function Services() {
   useGSAP(() => {
     const services = gsap.utils.toArray(".services-section div");
+
     gsap.to(services, {
       opacity: 1,
       duration: 1,

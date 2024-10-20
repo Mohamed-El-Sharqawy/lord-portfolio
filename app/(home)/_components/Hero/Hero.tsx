@@ -36,17 +36,24 @@ export default function Hero() {
         },
         1.25
       )
-      .to("#scroll-down-arrow", {
-        opacity: 1,
-        duration: 0.75,
-        ease: "power3",
-      }, 1.35);
+      .to(
+        "#scroll-down-arrow",
+        {
+          opacity: 1,
+          duration: 0.75,
+          ease: "power3",
+          onComplete: () => {
+            tl.clear();
+          },
+        },
+        1.35
+      );
   });
 
   return (
     <section className="hero-section min-h-screen relative overflow-hidden">
       {/* Person Image */}
-      <div className="absolute -z-10 w-[880px] h-[770px] left-1/2 -translate-x-1/2 top-0 mix-blend-lighten">
+      <div className="hero-image-container absolute -z-10 w-[880px] h-[770px] left-1/2 -translate-x-1/2 top-0 mix-blend-lighten">
         <Image
           className="w-full h-full object-cover"
           src="/imgs/person.webp"

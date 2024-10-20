@@ -29,9 +29,7 @@ export default function Header() {
   useGSAP(() => {
     if (!headerRef.current) return;
 
-    const tl = gsap.timeline();
-
-    tl.to(headerRef.current, {
+    gsap.to(headerRef.current, {
       top: 48,
       duration: 0.75,
       delay: 0.35,

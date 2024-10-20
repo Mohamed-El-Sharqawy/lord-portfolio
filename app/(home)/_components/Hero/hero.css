@@ -26,6 +26,12 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .hero-section .hero-image-container  {
+    @apply w-[680px] h-[570px];
+  }
+}
+
 @media screen and (max-width: 320px) {
   .hero-section div > h1 {
     @apply text-[30px];
