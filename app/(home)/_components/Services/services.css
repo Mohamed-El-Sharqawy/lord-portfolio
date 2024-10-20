@@ -56,3 +56,19 @@
     @apply col-span-1;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .services-section div {
+    @apply w-full;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .services-section div {
+    @apply p-4;
+  }
+
+  .services-section div h2 {
+    @apply mt-3;
+  }
+}
