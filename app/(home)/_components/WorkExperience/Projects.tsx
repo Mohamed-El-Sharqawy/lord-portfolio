@@ -14,14 +14,13 @@ export default function Projects() {
 
     gsap.to(projects, {
       opacity: 1,
-      duration: 0.95,
+      duration: 0.5,
       ease: "power3.inOut",
-      delay: 0.5,
       scrollTrigger: {
         trigger: ".work-experience-section-title",
         start: "top 50%",
       },
-      stagger: 0.15,
+      stagger: 0.25,
     });
   });
 

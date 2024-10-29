@@ -44,7 +44,8 @@ export default function SectionTitle() {
         opacity: 1,
         top: 0,
         rotate: 0,
-        stagger: 0.15,
+        duration: 0.25,
+        stagger: 0.05,
         scrollTrigger: {
           trigger: ".work-experience-section",
           start: "-25% 25%",
@@ -56,7 +57,7 @@ export default function SectionTitle() {
       gsap.from(".work-experience-section-title a", {
         opacity: 0,
         y: 50,
-        duration: 2,
+        duration: 1,
         ease: "power3",
         scrollTrigger: {
           trigger: ".work-experience-section",

@@ -32,7 +32,7 @@ export default function Logos() {
           className="partner-logo cursor-pointer drop-shadow-[0_0_4px_#DAC5A7] hover:drop-shadow-[0_0_8px_#DAC5A7] relative transition opacity-0"
         >
           <Image
-            className="w-full"
+            className="w-auto h-auto"
             src={logo.src}
             alt={logo.alt}
             width={logo.width}
