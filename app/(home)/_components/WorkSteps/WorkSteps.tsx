@@ -7,7 +7,7 @@ export default function WorkSteps() {
       <div className="space-y-6 md:mb-28 mb-16">
         <h2 className="text-wheat text-center">THE PROCESS</h2>
 
-        <h1 className="text-wheat text-center text-5xl leading-tight md:text-8xl md:leading-loose font-medium text-balance max-w-[700px] mx-auto">
+        <h1 className="text-wheat text-center text-5xl leading-tight md:text-8xl md:leading-tight font-medium text-balance max-w-[700px] mx-auto">
           Your Website <span className="italic font-light">in 5 steps</span>
         </h1>
 
