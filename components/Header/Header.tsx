@@ -75,7 +75,7 @@ export default function Header() {
 
       <div
         ref={mobileMenuContent}
-        className="mobile-menu-content bg-main/80 fixed top-0 left-0 w-full h-full z-50 space-y-8 flex flex-col items-center justify-center backdrop-blur-md"
+        className="mobile-menu-content bg-black/80 fixed top-0 left-0 w-full h-full z-50 space-y-8 flex flex-col items-center justify-center backdrop-blur-md"
       >
         <XMark setIsMobileMenuOpen={setIsMobileMenuOpen} />
 

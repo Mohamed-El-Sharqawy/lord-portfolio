@@ -24,12 +24,7 @@ const config: Config = {
       },
       colors: {
         wheat: "#DAC5A7",
-      },
-      textColor: {
         black: "#0E0E0E",
-      },
-      backgroundColor: {
-        main: "#0E0E0E",
       },
       backgroundImage: {
         noise: "url('/imgs/noise.webp')",
