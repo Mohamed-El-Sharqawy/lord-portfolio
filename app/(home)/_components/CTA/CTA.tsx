@@ -12,18 +12,18 @@ export default function CTA() {
       </Marquee>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-wheat text-center">
-        <span className="uppercase">Project in mind?</span>
+        <span className="uppercase text-sm sm:text-base">Project in mind?</span>
 
-        <h1 className="uppercase text-[128px] max-w-[1200px] my-2 leading-tight text-balance">
+        <h1 className="uppercase xl:text-[128px] max-w-[1200px] my-2 leading-tight text-balance md:text-[80px] sm:text-[60px] text-[32px]">
           Let’s make your <span className="font-serif">Website Shine</span>
         </h1>
 
-        <p className="text-xl text-wheat/60 max-w-[500px]">
+        <p className="text-base sm:text-xl text-wheat/60 max-w-[500px]">
           Premium web design, webflow, and SEO services to help your business
           stand out.
         </p>
 
-        <Button className="mt-10" text="Get in touch" />
+        <Button className="mt-5 sm:mt-10" text="Get in touch" />
       </div>
     </section>
   );
