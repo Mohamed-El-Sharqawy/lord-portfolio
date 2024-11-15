@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 export default function WorkSteps() {
   return (
-    <section className="section-container relative">
+    <section className="container relative">
       <div className="space-y-6 md:mb-28 mb-16">
         <h2 className="text-wheat text-center">THE PROCESS</h2>
 

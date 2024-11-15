@@ -27,7 +27,7 @@ export default function Services() {
   });
 
   return (
-    <section className="services-section section-container">
+    <section className="services-section container">
       {services.map((service, idx) => (
         <SingleService
           key={service.title}

@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .services-section.section-container {
+  .services-section.container {
     @apply max-w-[1024px];
   }
 
@@ -48,7 +48,7 @@
     @apply py-[90px] grid grid-cols-1 gap-8 place-items-center;
   }
 
-  .services-section.section-container {
+  .services-section.container {
     @apply max-w-[740px];
   }
 

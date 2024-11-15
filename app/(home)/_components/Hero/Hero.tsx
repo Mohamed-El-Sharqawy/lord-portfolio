@@ -1,7 +1,6 @@
 "use client";
 
 import DownArrow from "@/public/icons/down-arrow";
-import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 
@@ -11,6 +10,7 @@ gsap.registerPlugin(useGSAP);
 
 import "./hero.css";
 import { useRef } from "react";
+import PersonImage from "@/components/PersonImage";
 
 export default function Hero() {
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -53,15 +53,7 @@ export default function Hero() {
   return (
     <section className="hero-section min-h-screen relative overflow-hidden">
       {/* Person Image */}
-      <div className="hero-image-container absolute -z-10 w-[880px] h-[770px] left-1/2 -translate-x-1/2 top-0 mix-blend-lighten">
-        <Image
-          className="w-full h-full object-cover"
-          src="/imgs/person.webp"
-          alt="hero-img"
-          width={880}
-          height={770}
-        />
-      </div>
+      <PersonImage />
 
       {/* Hero Content */}
       <div className="hero-content space-y-4 text-center absolute bottom-[40px] left-1/2 -translate-x-1/2 w-full">
