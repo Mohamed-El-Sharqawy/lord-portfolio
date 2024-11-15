@@ -18,7 +18,7 @@ export default function CTA() {
           Let’s make your <span className="font-serif">Website Shine</span>
         </h1>
 
-        <p className="text-base sm:text-xl text-wheat/60 max-w-[500px]">
+        <p className="text-base sm:text-xl text-wheat/60 w-full px-3 sm:max-w-[500px] sm:px-0">
           Premium web design, webflow, and SEO services to help your business
           stand out.
         </p>
